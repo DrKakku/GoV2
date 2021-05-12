@@ -1,0 +1,175 @@
+body {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("bodyBG.jpg");
+    background-color: rgba(0, 0, 0, .1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#section1 {
+    width: 14elm;
+    height: 95%;
+    background-image: url("./baground1.jpg");
+    background-color: rgba(0, 0, 0, .1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: .5%;
+
+
+}
+
+
+div#section2 {
+    width: 95vmax;
+    height: 60%;
+    background-image: url("./Profile-4.JPG");
+    background-color: rgba(0, 0, 0, .1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 25px;
+    margin: .5%;
+
+
+}
+
+
+div#section3 {
+    width: 48vw;
+    height: 95%;
+    padding: 25%;
+    margin: .5%;
+
+    background-image: url("./Profile-3.jpg");
+    background-color: rgba(0, 0, 0, .3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 25px;
+
+}
+
+
+div#section4 {
+    width: 48vw;
+    height: 95%;
+    padding: 25%;
+    margin: .5%;
+
+    /* background-image: url("./Profile-3.jpg"); */
+    background-color: rgba(255, 255, 255, .3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 25px;
+
+}
+
+
+div#section2,
+#moto {
+    font-size: 80%;
+}
+
+div#aboutTitle {
+    font-family: 'Squada One', cursive;
+    font-size: 390%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div#about {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Squada One', cursive;
+    font-size: 290%;
+    font-stretch: wider;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+div#section1,
+#profile1,
+#Title {
+    font-size: 150%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+div#section3 {
+    background-color: rgba(20, 12, 60, 0.87);
+}
+
+
+
+div #Title,
+#small {
+    flex-direction: column;
+}
+
+div #small {
+    font-size: 60%;
+}
+
+
+div#section1 {
+
+    padding: 5%;
+
+}
+
+#profile1,
+img {
+    width: 55%;
+    align-self: center;
+    border-radius: 30px;
+
+}
+
+div#moto {
+    padding: 40%;
+    font-size: xx-large;
+}
+
+
+
+a {
+    color: white;
+}
+
+a:hover {
+    font-size: 140%;
+    color: chocolate;
+}
+
+div#Title,
+#moto,
+#about,
+#aboutTitle {
+
+    background-color: rgba(56, 64, 80, 0.15);
+    padding: 2%;
+    border-radius: 15px;
+    border: 0px solid black;
+
+
+}
