@@ -14,41 +14,94 @@ body {
 }
 
 div#section1 {
-    width: 14elm;
-    height: 95%;
+    width: 95vw;
+    height: 95vh;
     background-image: url("./baground1.jpg");
     background-color: rgba(0, 0, 0, .1);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin: .5%;
+    margin: 1vw;
+}
 
+
+div#section1,
+#profile1,
+#Title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+
+div#section1 {
+
+    padding: .5vw;
+
+}
+
+#profile1,
+img {
+    max-width: 49%;
+    width: 85vw;
+    border-radius: 30px;
 
 }
 
 
+div #Title,
+#small {
+    font-size: 2.5vw;
+    flex-direction: column;
+}
+
+div #small {
+    font-size: 2vw;
+}
+
+
 div#section2 {
-    width: 95vmax;
-    height: 60%;
+    width: 96vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
     background-image: url("./Profile-4.JPG");
     background-color: rgba(0, 0, 0, .1);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     border-radius: 25px;
-    margin: .5%;
+    margin: .5vw;
 
 
 }
 
 
-div#section3 {
-    width: 48vw;
-    height: 95%;
-    padding: 25%;
-    margin: .5%;
+div#section2,
+#moto {
+    font-size: 4vw;
+}
 
-    background-image: url("./Profile-3.JPG");
+div#moto {
+    padding: 5vw;
+    font-size: xx-large;
+}
+
+
+div#section3 {
+    width: 95vw;
+    height: 100vh;
+    padding: 1vw;
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("./bg3.jpg");
     background-color: rgba(0, 0, 0, .3);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -58,30 +111,14 @@ div#section3 {
 }
 
 
-div#section4 {
-    width: 48vw;
-    height: 95%;
-    padding: 25%;
-    margin: .5%;
-
-    /* background-image: url("./Profile-3.jpg"); */
-    background-color: rgba(255, 255, 255, .3);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    border-radius: 25px;
-
-}
-
-
-div#section2,
-#moto {
-    font-size: 80%;
-}
 
 div#aboutTitle {
     font-family: 'Squada One', cursive;
-    font-size: 390%;
+    font-size: 4vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -90,10 +127,12 @@ div#aboutTitle {
 }
 
 div#about {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
     font-family: 'Squada One', cursive;
-    font-size: 290%;
+    font-size: 3vw;
     font-stretch: wider;
     display: flex;
     flex-direction: row;
@@ -103,51 +142,44 @@ div#about {
 
 }
 
-div#section1,
-#profile1,
-#Title {
-    font-size: 150%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border-radius: 30px;
-}
-
 div#section3 {
     background-color: rgba(20, 12, 60, 0.87);
 }
 
 
+div#section4 {
+    width: 94vw;
+    height: 100vh;
+    padding: 1vw;
+    margin: .5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-image: url("./Profile-3.jpg"); */
+    background-color: rgba(255, 255, 255, .3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 25px;
 
-div #Title,
-#small {
+}
+#row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#col1,#col2
+{
+    display: flex;
     flex-direction: column;
 }
 
-div #small {
-    font-size: 60%;
-}
-
-
-div#section1 {
-
-    padding: 5%;
-
-}
-
-#profile1,
-img {
-    width: 55%;
-    align-self: center;
-    border-radius: 30px;
-
-}
-
-div#moto {
-    padding: 40%;
-    font-size: xx-large;
+img#imgWraper1,img#imgWraper2
+{
+    width: 15vw;
+    margin: 1vw;
 }
 
 
@@ -167,8 +199,8 @@ div#Title,
 #aboutTitle {
 
     background-color: rgba(56, 64, 80, 0.15);
-    padding: 2%;
-    border-radius: 15px;
+    padding: 1vw;
+    border-radius: 2vw;
     border: 0px solid black;
 
 
