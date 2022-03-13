@@ -1,7 +1,11 @@
+html {
+    background-color: black;
+}
+
 body {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("bodyBG.jpg");
+    background-image: url("../img/bodyBG.jpg");
     background-color: rgba(0, 0, 0, .1);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,14 +20,13 @@ body {
 div#section1 {
     width: 95vw;
     height: 95vh;
-    background-image: url("./baground1.jpg");
+    background-image: url("../img/baground1.jpg");
     background-color: rgba(0, 0, 0, .1);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     margin: 1vw;
 }
-
 
 div#section1,
 #profile1,
@@ -36,11 +39,8 @@ div#section1,
     border-radius: 30px;
 }
 
-
 div#section1 {
-
     padding: .5vw;
-
 }
 
 #profile1,
@@ -48,9 +48,7 @@ img {
     max-width: 49%;
     width: 85vw;
     border-radius: 30px;
-
 }
-
 
 div #Title,
 #small {
@@ -62,7 +60,6 @@ div #small {
     font-size: 2vw;
 }
 
-
 div#section2 {
     width: 96vw;
     height: 98vh;
@@ -70,17 +67,14 @@ div#section2 {
     justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
-    background-image: url("./Profile-4.JPG");
+    background-image: url("../img/Profile-4.JPG");
     background-color: rgba(0, 0, 0, .1);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     border-radius: 25px;
     margin: .5vw;
-
-
 }
-
 
 div#section2,
 #moto {
@@ -92,7 +86,6 @@ div#moto {
     font-size: xx-large;
 }
 
-
 div#section3 {
     width: 95vw;
     height: 100vh;
@@ -101,16 +94,13 @@ div#section3 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url("./bg3.jpg");
+    background-image: url("../img/bg3.jpg");
     background-color: rgba(0, 0, 0, .3);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     border-radius: 25px;
-
 }
-
-
 
 div#aboutTitle {
     font-family: 'Squada One', cursive;
@@ -139,13 +129,11 @@ div#about {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 div#section3 {
     background-color: rgba(20, 12, 60, 0.87);
 }
-
 
 div#section4 {
     width: 94vw;
@@ -161,28 +149,25 @@ div#section4 {
     background-attachment: fixed;
     background-size: cover;
     border-radius: 25px;
-
 }
-#row
-{
+
+#row {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-#col1,#col2
-{
+#col1,
+#col2 {
     display: flex;
     flex-direction: column;
 }
 
-img#imgWraper1,img#imgWraper2
-{
+img#imgWraper1,
+img#imgWraper2 {
     width: 15vw;
     margin: 1vw;
 }
-
-
 
 a {
     color: white;
@@ -197,11 +182,8 @@ div#Title,
 #moto,
 #about,
 #aboutTitle {
-
     background-color: rgba(56, 64, 80, 0.15);
     padding: 1vw;
     border-radius: 2vw;
     border: 0px solid black;
-
-
 }
